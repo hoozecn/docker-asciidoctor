@@ -72,7 +72,7 @@ RUN apk add --no-cache --virtual .rubymakedepends \
     thread_safe \
     tilt \
     "asciidoctor-bibtex:${ASCIIDOCTOR_BIBTEX_VERSION}" \
-    "asciidoctor-pdf-cjk-kai_gen_gothic"
+    "asciidoctor-pdf-cjk-kai_gen_gothic" \
   && apk del -r --no-cache .rubymakedepends
 
 # support chinese
